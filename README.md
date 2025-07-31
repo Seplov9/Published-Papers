@@ -1,35 +1,37 @@
 # Published-Papers
 Papers and Patent Achievements during Master's study
 
-# eg: First Connection for Folder Transmission
-1. configuration
+# eg: Settings for Folder Upload
+1.configuration
 
-git config -l  \\查看
+  git config -l  \\查看
 
-git config --global user.name "Seplov9"  \\配置用户名
+  git config --global user.name "Seplov9"  \\配置用户名
 
-git config --global user.emai "zyytcyk@163.com"  \\配置邮箱
+  git config --global user.emai "zyytcyk@163.com"  \\配置邮箱
 
-ssh-keygen -t rsa (C:\Users\HUAWEI\.ssh\id_rsa.pub)  \\生成密钥
+  ssh-keygen -t rsa (C:\Users\HUAWEI\.ssh\id_rsa.pub)  \\生成密钥
 
-ssh -T git@github.com  \\测试绑定
+  ssh -T git@github.com  \\测试绑定
 
-2. clone
+2.clone
 
-git clone https://github.com/Seplov9/repository.git
+  git clone https://github.com/Seplov9/repository.git
 
-3. upload
+3.upload
 
-//git init
+  //git init
 
-git add ./tilename
+  git add ./tilename
 
-git status
+  git status
 
-git commit -m "annotation"
+  git commit -m "annotation"
 
-//git remote add origin https://xxx@xxx/test.git
+  git status
 
-git status
+  //git remote add origin https://xxx@xxx/test.git
 
-git push
+  //git push origin master
+
+  git push
