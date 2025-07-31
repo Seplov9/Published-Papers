@@ -1,2 +1,21 @@
 # Published-Papers
 Papers and Patent Achievements during Master's study
+
+# eg: First Connection for Files Transmission
+1. configuration
+   git config -l  \\查看
+   git config --global user.name "Seplov9"  \\配置用户名
+   git config --global user.emai "zyytcyk@163.com"  \\配置邮箱
+   ssh-keygen -t rsa (C:\Users\HUAWEI\.ssh\id_rsa.pub)  \\生成密钥
+   ssh -T git@github.com  \\测试绑定
+
+2. clone
+   git clone https://github.com/Seplov9/repository.git
+
+3. upload
+   //git init
+   git add ./tilename
+   git status
+   git commit -m "annotation"
+   git status
+   git push
