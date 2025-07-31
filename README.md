@@ -35,4 +35,6 @@ Papers and Patent Achievements during Master's study
 
   //git push origin master
 
+  //git checkout main
+
   git push
