@@ -14,15 +14,17 @@ Papers and Patent Achievements during Master's study
 
   ssh -T git@github.com  //测试绑定
 
+
 2.clone
 
   git clone https://github.com/Seplov9/repository.git
+
 
 3.upload
 
   //git init
 
-  git add ./tilename
+  git add ./filename
 
   git status
 
