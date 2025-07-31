@@ -33,6 +33,8 @@ Papers and Patent Achievements during Master's study
 
   git commit -m "commit explaination"
 
+  //git reset --soft HEAD~1
+
   git status
 
   //git remote add origin https://xxx@xxx/test.git
