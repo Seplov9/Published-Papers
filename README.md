@@ -2,7 +2,7 @@
 Papers and Patent Achievements during Master's study
 
 # eg: Settings for Folder Upload
-## 1.configuration
+## 1.configuration ##
 
   git config -l  //查看
 
@@ -15,11 +15,11 @@ Papers and Patent Achievements during Master's study
   ssh -T git@github.com  //测试绑定
 
 
-## 2.clone
+## 2.clone ##
 
   git clone https://github.com/Seplov9/repository.git
 
-## 3.upload
+## 3.upload ##
 
   //git init
 
