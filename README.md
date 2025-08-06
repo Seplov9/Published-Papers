@@ -1,6 +1,8 @@
 # Published-Papers
 Papers and Patent Achievements during Master's study
 
+- Near-field AoA estimation with Complex Convolutional Kolmogorov-Arnold Network
+
 # eg: Settings for Folder Upload
 **1.configuration**
 
