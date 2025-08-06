@@ -1,7 +1,9 @@
 # Published-Papers
 Papers and Patent Achievements during Master's study
 
-- Near-field AoA estimation with Complex Convolutional Kolmogorov-Arnold Network
+- [Near-field AoA estimation with Complex Convolutional Kolmogorov-Arnold Network](https://ieeexplore.ieee.org/document/10889435)
+- [Localization Optimization Algorithm Based on Phase Noise Compensation](https://www.mdpi.com/2079-9292/13/24/4947)
+- [A Low-Complexity Post-Distortion Linearization for Satellite and mmWave Communication Systems](https://ieeexplore.ieee.org/document/10993887)
 
 # eg: Settings for Folder Upload
 **1.configuration**
