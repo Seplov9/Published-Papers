@@ -62,3 +62,27 @@ Papers and Patent Achievements during Master's study
   git push -u origin feature/add-login
 
   git remote -v
+
+# conda
+
+  conda create -n <env> python=3.13 -y
+
+  conda init
+
+  conda activate <env>
+
+  conda deactivate <env>
+
+  conda remove -n <env> --all
+
+  conda install
+
+  conda list
+
+  conda env list
+
+  pip install
+
+  pip list
+
+# linux
