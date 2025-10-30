@@ -89,4 +89,28 @@ Papers and Patent Achievements during Master's study
 
   pip list
 
+# uv
+
+  pip install uv
+
+  // Windows
+  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+  uv sync
+
+  // uv init my_project
+  // cd my_project
+  // uv venv
+
+  // Windows CMD
+  .venv\Scripts\activate
+
+  // Windows PowerShell
+  .venv\Scripts\Activate.ps1
+
+  // Linux
+  source .venv/bin/activate
+
+  deactivate
+
 # linux
