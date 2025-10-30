@@ -5,7 +5,7 @@ Papers and Patent Achievements during Master's study
 - [Localization Optimization Algorithm Based on Phase Noise Compensation](https://www.mdpi.com/2079-9292/13/24/4947)
 - [A Low-Complexity Post-Distortion Linearization for Satellite and mmWave Communication Systems](https://ieeexplore.ieee.org/document/10993887)
 
-# eg: Settings for Folder Upload
+# Git: Settings for Folder Upload & normal usage
 **1.configuration**
 
   git config -l  //查看
@@ -62,6 +62,10 @@ Papers and Patent Achievements during Master's study
   git push -u origin feature/add-login
 
   git remote -v
+
+  git fetch origin main
+
+  git merge origin/main
 
 # conda
 
