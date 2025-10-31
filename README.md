@@ -12,7 +12,7 @@ Papers and Patent Achievements during Master's study
 
   git config --global user.name "Seplov9"  //配置用户名
 
-  git config --global user.emai "zyytcyk@163.com"  //配置邮箱
+  git config --global user.email "zyytcyk@163.com"  //配置邮箱
 
   git config --global http.proxy http://127.0.0.1:7890
   
