@@ -158,3 +158,17 @@ Papers and Patent Achievements during Master's study
   cd
 
   pwd
+
+  vim
+  
+  :wq  //保存并退出
+
+  :q!  //退出不保存
+
+  more
+
+  Enter  //下一行
+
+  Space  //下一页
+
+  q  //退出查看
