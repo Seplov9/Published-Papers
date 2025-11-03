@@ -139,6 +139,22 @@ Papers and Patent Achievements during Master's study
   
   source .venv/bin/activate
 
+  uv pip install
+
   deactivate
 
+# Vscode
+
+  history  //查看历史命令
+
+  python  //进入python编辑
+
+  exit()/ctrl+z + Enter  //退出python编辑
+
 # linux
+
+  ls
+
+  cd
+
+  pwd
