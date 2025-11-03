@@ -18,7 +18,23 @@ Papers and Patent Achievements during Master's study
   
   git config --global https.proxy http://127.0.0.1:7890
 
-  ssh-keygen -t rsa (C:\Users\HUAWEI\.ssh\id_rsa.pub)  //生成密钥
+  git config --global --unset user.name  //清楚git config配置
+  
+  git config --global --unset user.email
+
+  ssh-keygen -t rsa  //生成密钥
+
+  ssh-keygen -t ed25519  //生成密钥
+
+  C:\Users\HUAWEI\.ssh\id_rsa.pub  //Windows中公钥位置
+
+  cat ~/.ssh/id_ed25519.pub  //Linux中显示公钥
+
+  cat ~/.ssh/id_rsa.pub  //Linux中显示公钥
+
+  ip a  //ip addr show  // Linux中获取ip
+
+  ssh root@192.168.48.128 "cat ~/.ssh/id_rsa.pub"  //在Windows中连接虚拟机获取公钥
 
   ssh -T git@github.com  //测试绑定
 
@@ -26,6 +42,8 @@ Papers and Patent Achievements during Master's study
 **2.clone**
 
   git clone https://github.com/Seplov9/repository.git
+
+  git clone git@github.com:Seplov9/repository.git
 
 **3.upload**
 
