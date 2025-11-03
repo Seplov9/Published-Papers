@@ -159,6 +159,16 @@ Papers and Patent Achievements during Master's study
 
   pwd
 
+  mkdir
+
+  rmdir
+
+  rm
+
+  mv
+
+  cp
+
   vim
   
   :wq  //保存并退出
@@ -172,3 +182,13 @@ Papers and Patent Achievements during Master's study
   Space  //下一页
 
   q  //退出查看
+
+  tar -czvf
+
+  unzip -l
+
+  find /home -name "file.txt"  //find [路径] [选项] [表达式]
+
+  grep "error" /var/log/syslog  //grep [选项] [关键字] [文件名]
+
+  ps aux | grep ssh  //查找 SSH 进程
