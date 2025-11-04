@@ -192,3 +192,5 @@ Papers and Patent Achievements during Master's study
   grep "error" /var/log/syslog  //grep [选项] [关键字] [文件名]
 
   ps aux | grep ssh  //查找 SSH 进程
+
+  uname -s  //查看当前环境
