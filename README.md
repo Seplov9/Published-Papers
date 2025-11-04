@@ -170,6 +170,10 @@ Papers and Patent Achievements during Master's study
   cp
 
   vim
+
+  i  //进入编辑模式
+
+  Esc  //进入命令模式
   
   :wq  //保存并退出
 
