@@ -163,6 +163,8 @@ Papers and Patent Achievements during Master's study
 
   cd /  //根目录
 
+  cd .  //当前目录
+
   cd ..  //上级目录
 
   tree
