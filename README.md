@@ -37,13 +37,14 @@ Papers and Patent Achievements during Master's study
   ssh root@192.168.48.128 "cat ~/.ssh/id_rsa.pub"  //在Windows中连接虚拟机获取公钥
 
   ssh -T git@github.com  //测试绑定
-
+  
 
 **2.clone**
 
   git clone https://github.com/Seplov9/repository.git
 
   git clone git@github.com:Seplov9/repository.git
+  
 
 **3.upload**
 
@@ -66,6 +67,7 @@ Papers and Patent Achievements during Master's study
   //git checkout main
 
   git push
+  
 
   **4.branch**
 
@@ -168,6 +170,10 @@ Papers and Patent Achievements during Master's study
   mv
 
   cp
+
+  uname -a
+
+  uname -s
 
   vim
 
