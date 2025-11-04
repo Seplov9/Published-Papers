@@ -224,7 +224,15 @@ Papers and Patent Achievements during Master's study
   
   :wq  //退出并保存
 
-  :q!  //退出不保存
+  :x  //保存并退出
+
+  :w  //保存不退出
+
+  :wq!  //强制保存并退出
+
+  :q  //退出不保存
+
+  :q!  //强制退出不保存
 
   more
 
