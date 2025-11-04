@@ -157,7 +157,48 @@ Papers and Patent Achievements during Master's study
 
   ls
 
-  cd
+  cd  //主目录
+
+  cd ~  //主目录
+
+  cd /  //根目录
+
+  cd ..  //上级目录
+
+  tree
+
+  /  //根目录
+  ├── bin/
+  ├── boot/
+  ├── dev/
+  ├── etc/
+  ├── home/
+  │   └── username/  //主目录
+  ├── lib/
+  │   └── x86_64-linux-gnu/
+  ├── media/
+  ├── mnt/
+  ├── opt/
+  ├── proc/
+  ├── root/
+  ├── run/
+  ├── sbin/
+  ├── srv/
+  ├── sys/
+  ├── tmp/
+  ├── usr/
+  │   ├── bin/
+  │   ├── lib/
+  │   ├── local/
+  │   └── share/
+  └── var/
+      ├── cache/
+      ├── lib/
+      ├── lock/
+      ├── log/
+      ├── mail/
+      ├── run/
+      └── spool/
 
   pwd
 
@@ -181,7 +222,7 @@ Papers and Patent Achievements during Master's study
 
   Esc  //进入命令模式
   
-  :wq  //保存并退出
+  :wq  //退出并保存
 
   :q!  //退出不保存
 
@@ -202,5 +243,9 @@ Papers and Patent Achievements during Master's study
   grep "error" /var/log/syslog  //grep [选项] [关键字] [文件名]
 
   ps aux | grep ssh  //查找 SSH 进程
+
+  ipconfig
+
+  ip addr show  //ip a
 
   uname -s  //查看当前环境
