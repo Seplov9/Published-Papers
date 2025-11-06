@@ -89,6 +89,18 @@ Papers and Patent Achievements during Master's study
 
 # conda
 
+  // 安装
+
+  cd ~
+  
+  wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+  bash Miniconda3-latest-Linux-x86_64.sh
+
+  source ~/miniconda3/bin/activate
+
+  conda --version
+
   conda create -n <env> python=3.13 -y
 
   conda init
@@ -170,36 +182,67 @@ Papers and Patent Achievements during Master's study
   tree
 
   /  //根目录
+  
   ├── bin/
+  
   ├── boot/
+  
   ├── dev/
+  
   ├── etc/
+  
   ├── home/
+  
   │   └── username/  //主目录
+  
   ├── lib/
+  
   │   └── x86_64-linux-gnu/
+  
   ├── media/
+  
   ├── mnt/
+  
   ├── opt/
+  
   ├── proc/
+  
   ├── root/
+  
   ├── run/
+  
   ├── sbin/
+  
   ├── srv/
+  
   ├── sys/
+  
   ├── tmp/
+  
   ├── usr/
+  
   │   ├── bin/
+  
   │   ├── lib/
+  
   │   ├── local/
+  
   │   └── share/
+  
   └── var/
+  
       ├── cache/
+      
       ├── lib/
+      
       ├── lock/
+      
       ├── log/
+      
       ├── mail/
+      
       ├── run/
+      
       └── spool/
 
   pwd
