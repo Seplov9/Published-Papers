@@ -97,7 +97,9 @@ Papers and Patent Achievements during Master's study
 
   bash Miniconda3-latest-Linux-x86_64.sh
 
-  source ~/miniconda3/bin/activate
+  conda activate
+
+  // source ~/miniconda3/bin/activate
 
   conda --version
 
@@ -107,7 +109,7 @@ Papers and Patent Achievements during Master's study
 
   conda activate <env>
 
-  conda deactivate <env>
+  conda deactivate
 
   conda remove -n <env> --all
 
