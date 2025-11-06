@@ -227,24 +227,8 @@ Papers and Patent Achievements during Master's study
   
   │   ├── local/
   
-  │   └── share/
+  └──   └── share/
   
-  └── var/
-  
-      ├── cache/
-      
-      ├── lib/
-      
-      ├── lock/
-      
-      ├── log/
-      
-      ├── mail/
-      
-      ├── run/
-      
-      └── spool/
-
   pwd
 
   mkdir
