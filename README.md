@@ -227,7 +227,7 @@ Papers and Patent Achievements during Master's study
   
   │   ├── local/
   
-  └──   └── share/
+  │  └── share/
   
   pwd
 
