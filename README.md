@@ -8,7 +8,7 @@ Papers and Patent Achievements during Master's study
 # Git: Settings for Folder Upload & normal usage
 **1.configuration**
 
-  git config -l  //查看
+  git config -l  //查看 git config --list
 
   git config --global user.name "Seplov9"  //配置用户名
 
@@ -57,6 +57,8 @@ Papers and Patent Achievements during Master's study
   git commit -m "commit explaination"
 
   //git reset --soft HEAD~1
+
+  git restore
 
   git status
 
@@ -170,6 +172,10 @@ Papers and Patent Achievements during Master's study
 # linux
 
   ls
+
+  ls -l
+
+  ls -all
 
   cd  //主目录
 
