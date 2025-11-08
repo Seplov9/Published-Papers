@@ -105,15 +105,15 @@ Papers and Patent Achievements during Master's study
 
   conda --version
 
-  conda create -n <env> python=3.13 -y
+  conda create -n \<env\> python=3.13 -y
 
   conda init
 
-  conda activate <env>
+  conda activate \<env\>
 
   conda deactivate
 
-  conda remove -n <env> --all
+  conda remove -n \<env\> --all
 
   conda install
 
