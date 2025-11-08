@@ -239,6 +239,10 @@ Papers and Patent Achievements during Master's study
   
   pwd
 
+  touch
+
+  cat
+
   mkdir
 
   rmdir
@@ -251,7 +255,7 @@ Papers and Patent Achievements during Master's study
 
   uname -a
 
-  uname -s
+  uname -s  //查看当前环境
 
   vim
 
@@ -292,5 +296,3 @@ Papers and Patent Achievements during Master's study
   ipconfig
 
   ip addr show  //ip a
-
-  uname -s  //查看当前环境
