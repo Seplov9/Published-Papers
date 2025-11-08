@@ -171,11 +171,13 @@ Papers and Patent Achievements during Master's study
 
 # linux
 
-  ls
+  ls  //列出当前目录下的文件和文件夹，不显示隐藏文件（以'.'开头的文件）
 
-  ls -l
+  ls -l  //列出文件详细信息，不显示隐藏文件
 
-  ls -all
+  ls -a  //列出所有文件，包括隐藏文件
+
+  ls -al  //组合"-a"和"-l"选项
 
   cd  //主目录
 
