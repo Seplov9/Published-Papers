@@ -28,9 +28,9 @@ Papers and Patent Achievements during Master's study
 
   C:\Users\HUAWEI\.ssh\id_rsa.pub  //Windows中公钥位置
 
-  cat ~/.ssh/id_ed25519.pub  //Linux中显示公钥
+  cat ~/.ssh/id_ed25519.pub  //显示公钥
 
-  cat ~/.ssh/id_rsa.pub  //Linux中显示公钥
+  cat ~/.ssh/id_rsa.pub  //显示公钥
 
   ip a  //ip addr show  // Linux中获取ip
 
