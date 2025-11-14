@@ -38,13 +38,13 @@ Papers and Patent Achievements during Master's study
 
   ssh -T git@github.com  //测试绑定
   
-
 **2.clone**
 
   git clone https://github.com/Seplov9/repository.git
 
   git clone git@github.com:Seplov9/repository.git
-  
+
+  cd repository
 
 **3.upload**
 
@@ -70,7 +70,6 @@ Papers and Patent Achievements during Master's study
 
   git push
   
-
   **4.branch**
 
   git pull origin main
