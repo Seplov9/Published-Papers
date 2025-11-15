@@ -76,9 +76,9 @@ Papers and Patent Achievements during Master's study
 
   git checkout -b feature/add-login
 
-  //git branch feature/add-login
+  // git branch feature/add-login
 
-  //git checkout feature/add-login
+  // git checkout feature/add-login
 
   git push -u origin feature/add-login
 
@@ -90,9 +90,13 @@ Papers and Patent Achievements during Master's study
 
 # WSL
 
-  https://learn.microsoft.com/zh-cn/windows/wsl/install
+  wsl --install  # https://learn.microsoft.com/zh-cn/windows/wsl/install
 
 # ZSH
+
+  sudo apt install zsh  # https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+
+  sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # https://github.com/ohmyzsh/ohmyzsh/
 
 # conda
 
