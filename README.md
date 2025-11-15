@@ -96,6 +96,8 @@ Papers and Patent Achievements during Master's study
 
 # ZSH
 
+  //https://www.haoyep.com/posts/zsh-config-oh-my-zsh/
+
   sudo apt install zsh  # https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
   sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # https://github.com/ohmyzsh/ohmyzsh/
