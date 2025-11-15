@@ -286,6 +286,8 @@ Papers and Patent Achievements during Master's study
 
   uname -a
 
+  uname -r
+
   uname -s  //查看当前环境
 
   vim
