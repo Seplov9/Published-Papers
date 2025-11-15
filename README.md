@@ -88,6 +88,12 @@ Papers and Patent Achievements during Master's study
 
   git merge origin/main
 
+# WSL
+
+  https://learn.microsoft.com/zh-cn/windows/wsl/install
+
+# ZSH
+
 # conda
 
   // 安装
