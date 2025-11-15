@@ -67,8 +67,6 @@ Papers and Patent Achievements during Master's study
   //git push origin master
 
   //git checkout main
-
-  git push
   
   **4.branch**
 
@@ -87,6 +85,10 @@ Papers and Patent Achievements during Master's study
   git fetch origin main
 
   git merge origin/main
+
+  git log  //-n1
+
+  git cherry-pick <commit-hash>
 
 # WSL
 
