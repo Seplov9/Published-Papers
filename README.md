@@ -98,6 +98,10 @@ Papers and Patent Achievements during Master's study
 
   sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # https://github.com/ohmyzsh/ohmyzsh/
 
+  // theme
+
+  
+
 # conda
 
   // 安装
