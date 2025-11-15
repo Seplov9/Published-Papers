@@ -100,7 +100,19 @@ Papers and Patent Achievements during Master's study
 
   // theme
 
-  
+  // https://github.com/romkatv/powerlevel10k
+
+  git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"  //安装
+
+  vi ~/.zshrc
+
+  ZSH_THEME="powerlevel10k/powerlevel10k"  //设置
+
+  <img width="236" height="106" alt="image" src="https://github.com/user-attachments/assets/575b3698-7c48-4586-bee8-85dc9b04fef0" />  // 安装字体
+
+  <img width="2555" height="1387" alt="image" src="https://github.com/user-attachments/assets/8159ad21-b981-45a1-98c6-3d83003b04eb" />  //设置字体
+
+  p10k configure  //source ~/.zshrc
 
 # conda
 
