@@ -88,6 +88,8 @@ Papers and Patent Achievements during Master's study
 
   git log  //-n1
 
+  git branch --all  //git branch -a
+
   git cherry-pick <commit-hash>
 
 # WSL
