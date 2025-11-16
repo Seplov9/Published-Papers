@@ -144,7 +144,7 @@ Papers and Patent Achievements during Master's study
 
   conda --version
 
-  conda create -n \<env\> python=3.13 -y
+  conda create -n \<env\> python -y
 
   conda init
 
