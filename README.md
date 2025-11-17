@@ -184,6 +184,8 @@ Papers and Patent Achievements during Master's study
   
   // uv venv
 
+  // Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process/CurrentUser # 解除禁止
+
   // Windows CMD
   
   .venv\Scripts\activate
