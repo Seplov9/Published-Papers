@@ -16,6 +16,8 @@ Papers and Patent Achievements during Master's study
 
   git config --system --list //查看系统配置
 
+  git config --get <config_name>  //查看某个配置
+
   git config --global user.name "Seplov9"  //配置用户名
 
   git config --global user.email "zyytcyk@163.com"  //配置邮箱
