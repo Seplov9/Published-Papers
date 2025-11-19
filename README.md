@@ -8,7 +8,13 @@ Papers and Patent Achievements during Master's study
 # Git: Settings for Folder Upload & normal usage
 **1.configuration**
 
-  git config -l  //查看 git config --list
+  git config -l  //查看全部配置 git config --list
+
+  git config --local --list  //查看当前项目配置
+
+  git config --global --list  //查看全局配置
+
+  git config --system --list //查看系统配置
 
   git config --global user.name "Seplov9"  //配置用户名
 
@@ -301,6 +307,8 @@ Papers and Patent Achievements during Master's study
   uname -r
 
   uname -s  //查看当前环境
+
+  cat
 
   vim
 
