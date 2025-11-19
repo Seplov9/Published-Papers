@@ -110,7 +110,9 @@ Papers and Patent Achievements during Master's study
 
   sudo apt install zsh  # https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
-  sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # https://github.com/ohmyzsh/ohmyzsh/
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+  //sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # https://github.com/ohmyzsh/ohmyzsh/
 
   // theme
 
