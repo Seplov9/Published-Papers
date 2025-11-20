@@ -166,6 +166,8 @@ Papers and Patent Achievements during Master's study
 
   conda install
 
+  conda remove <package>
+
   conda list
 
   conda env list
