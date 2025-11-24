@@ -138,15 +138,17 @@ Papers and Patent Achievements during Master's study
 
   p10k configure  //source ~/.zshrc
 
-# conda
+# miniconda
 
-  // 安装
+  // linux
 
   cd ~
   
   wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
   bash Miniconda3-latest-Linux-x86_64.sh
+
+  // windows
 
   conda activate
 
