@@ -150,6 +150,30 @@ Papers and Patent Achievements during Master's study
 
   // windows
 
+  // 下载.exe
+
+  // https://mirror.tuna.tsinghua.edu.cn/anaconda/miniconda
+
+  // www.anaconda.com
+
+  // 安装，配置path
+
+  // miniconda3
+
+  // miniconda3\Scripts
+
+  // miniconda3\Library\bin
+
+  // conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+
+  // conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+
+  // conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/msys2
+
+  pip config set global.index-url  // https://mirror.tuna.tsinghua.edu.cn/help/pypi/
+
+  conda init
+
   conda activate
 
   // source ~/miniconda3/bin/activate
@@ -157,8 +181,6 @@ Papers and Patent Achievements during Master's study
   conda --version
 
   conda create -n \<env\> python -y
-
-  conda init
 
   conda activate \<env\>
 
@@ -177,6 +199,8 @@ Papers and Patent Achievements during Master's study
   pip install
 
   pip list
+
+# pycharm
 
 # uv
 
