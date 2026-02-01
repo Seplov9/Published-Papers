@@ -404,3 +404,8 @@ Papers and Patent Achievements during Master's study
   
   https://github.com/vllm-project/tpu-inference/blob/main/tpu_inference/kernels/flash_attention/kernel.py
   
+# NCCL
+
+  https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/usage/collectives.html
+
+  https://github.com/chunhuizhang/pytorch_distribute_tutorials/blob/main/tutorials/torch_nccl_collective_communication.ipynb
