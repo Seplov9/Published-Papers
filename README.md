@@ -393,3 +393,11 @@ Papers and Patent Achievements during Master's study
 # Icon
 
   https://www.iconfont.cn/
+
+# Jax
+
+  https://jax-ml.github.io/scaling-book/index
+  https://docs.jax.dev/en/latest/jax-101.html
+  https://github.com/sgl-project/sglang-jax
+  https://github.com/vllm-project/tpu-inference/blob/main/tpu_inference/kernels/flash_attention/kernel.py
+  
