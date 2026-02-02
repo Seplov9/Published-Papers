@@ -403,6 +403,8 @@ Papers and Patent Achievements during Master's study
   https://github.com/sgl-project/sglang-jax
 
   https://flax.readthedocs.io/en/latest/why.html
+
+  https://github.com/rcrowe-google/Learning-JAX
   
   https://github.com/vllm-project/tpu-inference/blob/main/tpu_inference/kernels/flash_attention/kernel.py
   
