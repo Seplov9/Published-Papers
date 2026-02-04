@@ -91,7 +91,7 @@ $ cd ~
 
 $ vim .gitmessage.txt
 
-  type SCOPE: short-summary
+  type [SCOPE]: short-summary
   
   Problem:
   
@@ -111,7 +111,7 @@ $ vim .gitmessage.txt
 
 $ cat << 'EOF' | tee ~/.gitmessage.txt
 
-type SCOPE: <hort-summary
+type [SCOPE]: <hort-summary
 
 Problem:
 
