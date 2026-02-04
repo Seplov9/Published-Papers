@@ -32,25 +32,28 @@
 
 
 # Daily devlopment
-## 如何根据主分支更新开发分支
-$ git checkout main/develop # checkout到主分支
-$ git pull                  # 更新主分支内容，更新来自其他开发者的commits
-$ git checkout <branch>     # checkout到自己的开发分支
-$ git rebase main/develop   # 通过rebase，与主分支进度保持一致
+// 如何根据主分支更新开发分支
+$ git checkout main/develop // checkout到主分支
 
-## 提交开发分支以及PR
+$ git pull                  // 更新主分支内容，更新来自其他开发者的commits
+
+$ git checkout <branch>     // checkout到自己的开发分支
+
+$ git rebase main/develop   // 通过rebase，与主分支进度保持一致
+
+// 提交开发分支以及PR
 $ git push -u origin <branch>
-# github上提交PR
-$ git commit -C HEAD        # 根据reviewer反馈进行修改，-C HEAD 复用前一个commit msg
+// github上提交PR
+$ git commit -C HEAD        // 根据reviewer反馈进行修改，-C HEAD 复用前一个commit msg
 
 # Final merge，最终代码合入主分支
-## 在开发分支加入主分支的更新
+// 在开发分支加入主分支的更新
 $ git checkout main/develop
 $ git pull
 $ git checkout <branch>
 $ git rebase main/develop
 
-## especially when main/develop branch is updated
+// especially when main/develop branch is updated
 $ git commit --amend
 $ git push -u -f origin <branch>
 
