@@ -247,7 +247,7 @@ $ source .venv/bin/activate
 
 $ .venv\Scripts\activate
 
-// UV command cheetsheet
+## UV command cheetsheet
 
 // create virtual environment
 
