@@ -208,3 +208,51 @@ $ git push
 // 1. After "pre-commit install", it will automatically check all files when submit "git commit". If code have been revised, please re-go through the PR process.
 
 // 2. Please not use "git push -f" in case this operation will cover all commit messages, resulting in the loss of commit records.
+
+# UV
+
+// install uv
+
+// macOS/Linux
+
+$ curl -LsSf https://astral.sh/uv/install.sh | sh
+
+// Windows
+
+$ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+// macOS
+
+$ brew install uv
+
+// Or via pip
+
+$ pip install uv
+
+// setup development environment
+
+// Create virtual environment and install dependencies
+
+$ Set-ExecutionPolicy-ExecutionPolicy Bypass-Scope Process/CurrentUser # only for the first time
+
+$ uv sync
+
+// Activate the virtual environment
+
+// Linux/macOS
+
+$ source .venv/bin/activate
+
+// Windows
+
+$ .venv\Scripts\activate
+
+// UV command cheetsheet
+
+// create virtual environment
+
+$ uv venv --python <env_name>
+
+// pip
+
+$ uv pip install <package_name>
