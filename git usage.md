@@ -91,41 +91,41 @@ $ cd ~
 
 $ vim .gitmessage.txt
 
-  /<type/> [/<SCOPE/>]: /<short-summary/>
+  type SCOPE: short-summary
   
   Problem:
   
-  <description of the problem being solved>
+  description of the problem being solved
   
   Solution:
   
-  <description of the solution implemented>
+  description of the solution implemented
   
   Test:
   
-  <description of how the change was tested>
+  description of how the change was tested
   
-  JIRA: ISSUE-<Number>
+  JIRA: ISSUE-Number
 
 // Shell
 
 $ cat << 'EOF' | tee ~/.gitmessage.txt
 
-<type> [<SCOPE>]: <short-summary>
+type SCOPE: <hort-summary
 
 Problem:
 
-<description of the problem being solved>
+description of the problem being solved
 
 Solution:
 
-<description of the solution implemented>
+description of the solution implemented
 
 Test:
 
-<description of how the change was tested>
+description of how the change was tested
 
-JIRA: ISSUE-<Number>
+JIRA: ISSUE-Number
 
 EOF
 
