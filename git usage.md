@@ -5,6 +5,30 @@ Git structure
                      工作区       --->         暂存区       --->       本地仓库     --->        远程仓库     
               +-------------+         +-------------+        +-------------+        +---------------+
 
+#### **
+
+|                              | From    | To                   | Info                       |
+| ---------------------------- | ------- | -------------------- | -------------------------- |
+| git add ./<file>             | working | staging              |                            |
+| git commit                   | staging | local                |                            |
+| git commit -a                | working | local                | once added files           |
+| git commit --amend           |         |                      | old commint infonew commit |
+| git push origin <branch>     | local   | remote               |                            |
+|                              |         |                      |                            |
+| git restore <file>           | working | working(last commit) | withdraw modification      |
+| git checkout -- <file> [old] |         |                      |                            |
+|                              |         |                      |                            |
+| git restore --stage <file>   | staging | working              | withdraw add               |
+| git reset HEAD <file> [old]  |         |                      |                            |
+|                              |         |                      |                            |
+| git reset --soft HEAD~1(2)   | local   | staging              | withdraw commit            |
+| git reset --soft HEAD^(^^)   |         |                      |                            |
+| git reset --mixed HEAD~1     | local   | working              |                            |
+| git reset HEAD~1             |         |                      |                            |
+| git reset --hard HEAD~1      | local   | none                 |                            |
+|                              |         |                      |                            |
+| git revert HEAD              | remote  | none                 | safe withdraw push         |
+
 Git command cheetsheet
 
 From
