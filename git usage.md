@@ -132,3 +132,79 @@ EOF
 $ ssh-keygen -t rsa -b 2048 -C "<user_name>@is.ic"
 
 $ cat ~/.ssh/id_rsa.pub
+
+# PR
+
+// Step 1: checkout right branch
+
+// Step 2: pytest
+
+// Step 3: activate pre-commit
+
+$ pre-commit install
+
+// step 4: PR
+
+$ git add ./file name
+
+$ git commit
+
+// into vim, nano or vscode
+
+// first time
+
+$ git push -u origin <branch>
+
+//  not first time
+
+$ git commit -C HEAD
+
+$ git push
+
+//  On github.com/repository website
+
+//  Click "Compare & pull request"
+
+//  Add title
+
+  type[SCOPE]: short-summary
+  
+// Add discription
+
+  Problem:
+  
+  - description of the problem being solved
+  
+  Solution:
+  
+  - description of the solution implemented
+  
+  Test:
+  
+  - description of how the change was tested
+  
+  JIRA: ISSUE-Number
+  
+  // after "JIRA: ISSUE-<Number>", type '#' to choose the right <Number> link
+
+// Click "Create pull request"
+
+// Add reviewers
+
+// Review and revise
+
+// For gemini-code-assist advisement
+
+// Reply "take it" if use it
+
+// Reply "reject it" and explaination if omit it
+
+// Click "Squash and merge"
+
+// In this way, keep one complete commit message and delete the rest.
+
+// Notes
+
+// 1. After "pre-commit install", it will automatically check all files when submit "git commit". If code have been revised, please re-go through the PR process.
+
+// 2. Please not use "git push -f" in case this operation will cover all commit messages, resulting in the loss of commit records.
