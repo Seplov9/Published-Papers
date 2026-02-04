@@ -262,15 +262,16 @@ $ uv pip install <package_name>
 
 ## install Sphinx
 
-# install Sphinx
 $ pip install sphinx
+
 $ pip install sphinx-autobuild
+
 $ sphinx-quickstart
 
 // change theme
-https://sphinx-themes.readthedocs.io/en/latest/
+// https://sphinx-themes.readthedocs.io/en/latest/
 
-// read the docs in browser
+## read the docs in browser
 
 // option 1
 
