@@ -2,7 +2,7 @@
 
               +-------------+         +-------------+        +-------------+        +---------------+
               | Working Dir |  --->   |   Staging   |  --->  | Local Repo  | --->   |  Romote Repo  |
-                   工作区      --->         暂存区      --->      本地仓库     --->        远程仓库     
+                   工作区      --->        暂存区       --->     本地仓库      --->        远程仓库     
               +-------------+         +-------------+        +-------------+        +---------------+
 
 
@@ -70,3 +70,64 @@ $ git push -u -f origin <branch>
 Status check
 
 Please use "git status" frequently, as well as other git commands, to check the status.
+
+# Git setting
+
+$ git config --global user.name "<user_name>"
+
+$ git config --global user.email "<user_name>@is.ic"
+
+$ git config --global commit.template ~/.gitmessage.txt
+
+$ git config --global core.editor "nano"  # in Powershell, ignore it in zsh
+
+$ git config --global core.editor "code --wait"  # not recommended
+
+// .gitmessage
+
+// Powershell
+$ cd ~
+
+$ vim .gitmessage.txt
+
+  <type>[<SCOPE>]: <short-summary>
+  
+  Problem:
+  
+  <description of the problem being solved>
+  
+  Solution:
+  
+  <description of the solution implemented>
+  
+  Test:
+  
+  <description of how the change was tested>
+  
+  JIRA: ISSUE-<Number>
+
+// Shell
+
+$ cat << 'EOF' | tee ~/.gitmessage.txt
+
+<type>[<SCOPE>]: <short-summary>
+
+Problem:
+
+<description of the problem being solved>
+
+Solution:
+
+<description of the solution implemented>
+
+Test:
+
+<description of how the change was tested>
+
+JIRA: ISSUE-<Number>
+
+EOF
+
+$ ssh-keygen -t rsa -b 2048 -C "<user_name>@is.ic"
+
+$ cat ~/.ssh/id_rsa.pub
