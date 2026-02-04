@@ -31,7 +31,7 @@
 | git revert HEAD              | remote  | none                 | safe withdraw push         |
 
 
-# Daily devlopment
+## Daily devlopment
 // 如何根据主分支更新开发分支
 
 $ git checkout main/develop // checkout到主分支
@@ -50,7 +50,7 @@ $ git push -u origin <branch>
 
 $ git commit -C HEAD        // 根据reviewer反馈进行修改，-C HEAD 复用前一个commit msg
 
-# Final merge，最终代码合入主分支
+## Final merge，最终代码合入主分支
 // 在开发分支加入主分支的更新
 
 $ git checkout main/develop
@@ -67,9 +67,10 @@ $ git commit --amend
 
 $ git push -u -f origin <branch>
 
-Status check
+## Status check
 
 Please use "git status" frequently, as well as other git commands, to check the status.
+
 
 # Git setting
 
@@ -211,7 +212,7 @@ $ git push
 
 # UV
 
-// install uv
+## install uv
 
 // macOS/Linux
 
@@ -229,7 +230,7 @@ $ brew install uv
 
 $ pip install uv
 
-// setup development environment
+## setup development environment
 
 // Create virtual environment and install dependencies
 
@@ -256,3 +257,29 @@ $ uv venv --python <env_name>
 // pip
 
 $ uv pip install <package_name>
+
+# Sphinx
+
+## install Sphinx
+
+# install Sphinx
+$ pip install sphinx
+$ pip install sphinx-autobuild
+$ sphinx-quickstart
+
+// change theme
+https://sphinx-themes.readthedocs.io/en/latest/
+
+// read the docs in browser
+
+// option 1
+
+$ make html  # in the root directory of this project
+
+$ cd build/html
+
+$ python -m http.server
+
+// option 2
+
+$ sphinx-autobuild source build/html --open-browser
