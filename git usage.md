@@ -91,7 +91,7 @@ $ cd ~
 
 $ vim .gitmessage.txt
 
-  <type> [<SCOPE>]: <short-summary>
+  /<type/> [/<SCOPE/>]: /<short-summary/>
   
   Problem:
   
