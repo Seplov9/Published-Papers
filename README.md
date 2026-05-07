@@ -41,6 +41,8 @@ Papers and Patent Achievements during Master's study
 
   cat ~/.ssh/id_rsa.pub  //显示公钥
 
+  pbcopy < ~/.ssh/id_ed25519.pub  //mac中获取公钥
+
   ip a  //ip addr show  // Linux中获取ip
 
   ssh root@192.168.48.128 "cat ~/.ssh/id_rsa.pub"  //在Windows中连接虚拟机获取公钥
