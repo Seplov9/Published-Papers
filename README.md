@@ -101,6 +101,10 @@ Papers and Patent Achievements during Master's study
 
   git cherry-pick <commit-hash>
 
+  **5.镜像源**
+
+  清华：https://mirrors.tuna.tsinghua.edu.cn/
+
 # WSL
 
   wsl --install  # https://learn.microsoft.com/zh-cn/windows/wsl/install
