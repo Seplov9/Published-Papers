@@ -255,6 +255,16 @@ Papers and Patent Achievements during Master's study
 
   exit()/ctrl+z + Enter  //退出python编辑
 
+# Mac
+
+  scutil --get ComputerName  //查询计算机名称 (用户友好的显示名)
+  
+  scutil --get LocalHostName  //查询本地主机名 (用于局域网 .local)
+
+  scutil --get HostName  //查询网络主机名 (终端 @ 后面的名字)
+
+  sudo scutil --set HostName YourName
+
 # linux
 
   ls  //列出当前目录下的文件和文件夹，不显示隐藏文件（以'.'开头的文件）
